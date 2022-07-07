@@ -1,0 +1,38 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+section{
+   width: 100%;
+   height: 600px;
+   background-color: brown;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;   
+}
+
+input{
+   width: 350px;
+   height: 40px;
+   border: 1px solid;
+   padding-left: 20px;
+}
+button{
+   width: 150px;
+   height: 50px;
+   border: 1px solid;
+}
+#forText{
+   width: 100%;
+   height: 300px;
+   background-color: rgb(255, 74, 74);
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.inputs{
+   width: 400;
+   height: 600px;
+}
